@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  scroll-behavior: smooth;
+}
+.main-hero-container{
+  width: 100%;
+  min-height: 100vh;
+  background: #e3edf7;
+  position: absolute;
+}
+.my-container {
+  width: 80%;
+  margin:5% auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-nav{
+  background-color: #ff5e62;
+}
+
+.form-control {
+ border-color: #fc9567;
+}
+
+.my-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  color: #555;
+  margin: 0 0 20px 0;
+}
+span {
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #ff5e62;
+  border-style: solid;
+  color: #000000;
+  margin: 20px 0;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 1px;
+  border-color: #ff5e62;
+  border-style: solid;
+  padding: 3px;
+  text-align: center;
+}
+
+table.GeneratedTable thead {
+  background-color: #ff5e62;
+}
+.edit-icon{
+  cursor: pointer;
+  color: #0dc20d;
+
+}
+.delete-icon{
+  color: red;
+  cursor: pointer;
+}
+
+
+
